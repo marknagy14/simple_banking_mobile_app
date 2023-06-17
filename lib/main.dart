@@ -3,6 +3,7 @@ import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:grip/screens/home_screen.dart';
+import 'package:grip/screens/splash_screen.dart';
 
 import 'cubit/app_cubit.dart';
 import 'cubit/bloc_ovserver.dart';
@@ -16,7 +17,7 @@ Future<void> main() async {
   Bloc.observer = MyBlocObserver();
 
   final repository = SqliteRepository();
- // await repository.init();
+  // await repository.init();
 
   runApp(MyApp(repository: repository));
 }
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
       create: (context) => AppCubit(repository: repository)..getAllTransfers(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: const HomeScreen(),
+        home: const SplashScreen(),
       ),
     );
   }
