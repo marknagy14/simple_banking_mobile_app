@@ -6,6 +6,8 @@ A new Flutter project.
 
 simple UI flutter mobile applications to demonstrate use of Bloc and sqlflite by implementing a banking application. Under supervision of THE SPARKS FOUNDATION
 
+![image](https://github.com/marknagy14/simple_banking_mobile_app/assets/92223732/af67ffd0-737d-4159-a15d-4ad6fd7fc196)
+
 ![image](https://github.com/marknagy14/simple_banking_mobile_app/assets/92223732/dc26b02c-8a9f-4035-b585-586850f9de5f)
 
 ![image](https://github.com/marknagy14/simple_banking_mobile_app/assets/92223732/2d510e32-63a7-40a5-9afe-d3205c388e97)
